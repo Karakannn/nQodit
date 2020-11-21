@@ -2999,16 +2999,3 @@ main {
         transform: translate(-50%, -46%);
     }
 }
-
-.fp-section.fp-table, .fp-slide.fp-table {
-    height: calc(100vh - 80px) !important;
-    margin-top: 80px;
-}
-
-.fp-tableCell {
-    height: calc(100vh - 80px) !important;
-}
-
-#fullpage .section:first-child {
-    margin-top: 0 !important;
-}
