@@ -1872,9 +1872,7 @@ a.gradient-btn:hover:after {
     background-size: cover;
 }
 
-.light {
-    margin-top: 10vh;
-}
+
 
 /*Background*/
 
@@ -2457,10 +2455,14 @@ svg {
     color: white;
 }
 
+.auto {
+margin: 0 auto !important;
+}
+
 .mail {
-    padding: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: rgb(3, 27, 105);
 }
 
@@ -2591,6 +2593,10 @@ svg {
 
 #main-header {
     transition: all .5s;
+    padding: 0;
+}
+.light {
+    padding: 6vh;
 }
 
 .scrolled #main-header {
@@ -2825,8 +2831,8 @@ main {
     z-index: 9999999;
     height: 44px;
     width: 44px;
-    right: 15px;
-    top: 15px;
+    right: 5vh;
+    top: 5vh;
     overflow: hidden;
     color: transparent;
     white-space: nowrap;
