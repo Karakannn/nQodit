@@ -35,6 +35,12 @@
     .heading h1 {
         font-size: 24px;
     }
+    .heading {
+        margin-top: 10vh;
+    }
+    .pb-0 {
+        min-height: 50vh !important;
+    }
     .single-team-social li a {
         font-size: 22px;
         width: 45px;
@@ -182,9 +188,7 @@
         padding: 0 20px !important;
           margin-top: 0;
       }
-      .nav-trigger-open {
-          right: 0;
-      }
+    
     .plyr__captions {
         font-size: 18px;
       }
@@ -195,9 +199,9 @@
       .w-md-75 {
       width: 75%!important;
       }
-      html, body {
-      overflow: auto !important;
-      }
+    .jhiri-left-top {
+        display: none;
+    }
       .lead {
       font-family: Source Sans Pro;
       font-style: normal;
@@ -249,13 +253,33 @@
       height: 55px;
       margin: 0;
       }
+      .nav a {
+          font-size: 30px;
+      }
+      #nav-toggler-close{
+        top: 5%;
+        right: 29%;
+      }
       .right-button a {
       font-size: 15px;
       }
-      
+      header {
+        padding: 0;
+        width: 100%;
+        top: 0;
+        padding: 10%;
+        left: 0;
+        position: fixed !important;
+      }
+      .light {
+          width: 100%;
+      }
       .nav-link {
-      color: white !important;
-      text-align: center;
+        float: left;
+        font-size: 30px;
+        font-family: Source Sans Pro !important;
+        font-weight: 600;
+        font-size: 33px;
       }
       .mail {
         padding: 40px 0px;
@@ -282,9 +306,19 @@
     .view {
         margin-bottom: 50px;
     }
-      .navbar {
-      margin-top: 30px;
-      }
+    h1 {
+        font-size: 2.5rem;
+    }
+    span {
+        font-size: 20px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .distibution-bg {
+        padding: 90px 0px;
+    }
+  
       .descripton {
       margin-top: 50px;
       max-width: 777px;
@@ -296,7 +330,7 @@
           display: none;
       }
       .header-li {
-          display: none;;
+          display: none;
       }
       .header-ul {
   
@@ -429,13 +463,12 @@
         font-size: 20px;
         padding-right: 5px;
     }
-    .subscribe:nth-child(2) {
-        margin-top: 2vh;
-    }
+   
     .gradient-btn.apps-btn{
         font-size: 12px;
         margin-bottom: 40px;
     }
+    .head
     .apps-img img {
         width: 300px;
     }
@@ -710,7 +743,7 @@
         text-transform: uppercase;
     }
     .apps-area p {
-        font-size: 10px;
+        font-size: 13px;
     }
     .gradient-btn.v2 {
         height: 30px;
@@ -720,6 +753,8 @@
     }
     .apps-img img {
         width: 200px;
+        height: auto;
+        margin-top: 10%;
     }
     .welcome-right {
         text-align: center;

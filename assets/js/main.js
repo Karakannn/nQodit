@@ -117,7 +117,7 @@
             })
 
             var scrollTop = $(this).scrollTop();
-            console.log(scrollTop);
+        
             if (scrollTop >= window.innerHeight / 10) {
                 $('body').addClass("scrolled");
             } else {
