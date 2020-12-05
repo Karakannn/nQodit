@@ -8,7 +8,7 @@
             nav: false,
             margin: 30,
             autoplay: true,
-            autoplayspeed: 1000,
+            autoplayspeed: 10000,
             responsive: {
                 0: {
                     items: 1
@@ -27,7 +27,7 @@
             nav: false,
             margin: 30,
             autoplay: true,
-            autoplayspeed: 1000,
+            autoplayspeed: 10000,
             responsive: {
                 0: {
                     items: 1
@@ -45,10 +45,10 @@
         //roadmap carosusel active
         $(".roadmap-carousel").owlCarousel({
             loop: true,
-            nav: true,
+            nav: false,
             margin: 30,
             autoplay: true,
-            autoplayspeed: 1000,
+            autoplayspeed: 10000,
             navText: ['<i class="fa fa-long-arrow-left">', '<i class="fa fa-long-arrow-right">'],
             responsive: {
                 0: {
@@ -65,10 +65,10 @@
         //faq area carousel active
         $(".faq-carousel").owlCarousel({
             loop: true,
-            nav: true,
+            nav: false,
             margin: 30,
             autoplay: true,
-            autoplayspeed: 1000,
+            autoplayspeed: 10000,
             navText: ['<i class="fa fa-long-arrow-left">', '<i class="fa fa-long-arrow-right">'],
             responsive: {
                 0: {
@@ -79,6 +79,25 @@
                 },
                 1000: {
                     items: 3
+                }
+            }
+        });
+        $(".card-carousel").owlCarousel({
+            loop: true,
+            nav: false,
+            margin: 30,
+            autoplay: true,
+            autoplayspeed: 100000,
+            navText: ['<i class="fa fa-long-arrow-left">', '<i class="fa fa-long-arrow-right">'],
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
                 }
             }
         });
@@ -167,8 +186,7 @@
 
 
 /*================================ End ====================================*/
-
-console.clear();
+/***console.clear(); */
 
 const canvas = document.querySelector("canvas");
 const context = canvas.getContext("2d");
