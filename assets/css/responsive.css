@@ -11,22 +11,26 @@
     .homepage-buttons {
         margin-top: 5%;
     }
+
     #homepage .bg-gradient {
         height: 10%;
     }
+
     .owl-carousel .owl-item img {
         height: 20px;
     }
+
     .ml {
         margin-left: 1%;
     }
-  
+
 
     .lead-img-big-div {
         position: absolute;
         right: 25%;
         transform: translateX(-50%);
     }
+
     .pb-0 {
         min-height: 100vh !important;
     }
@@ -62,37 +66,43 @@
 
     .lead-img-div-4 {
         top: 370px;
-     
+
     }
 
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1050px) {
-.lead {
-    padding-top: 0% !important;
-    line-height: normal;
-    padding-bottom: 5%;
-    width: 70% !important;
-    padding-left: 7%;
-    margin: 0 !important;
-}
-.left-button {
-    margin-right: 5%;
-}
-.home-p {
-    width: 777px;
-    position: relative;
-    margin: 0 auto;
-}
-.home-p p {
-    width: 444px;
-}
-.homepage-buttons {
-    margin-left: 7%;
+    .lead {
+        padding-top: 0% !important;
+        line-height: normal;
+        padding-bottom: 5%;
+        width: 70% !important;
+        padding-left: 7%;
+        margin: 0 !important;
+    }
+
+    .left-button {
+        margin-right: 5%;
+    }
+
+    .home-p {
+        width: 777px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .home-p p {
+        width: 444px;
+    }
+
+    .homepage-buttons {
+        margin-left: 7%;
         margin-top: 70px;
 
-}
+    }
 
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
     .gradient-btn.apps-btn i {
@@ -111,7 +121,7 @@
     a.gradient-btn {
         font-size: 10px;
     }
-  
+
 
     a.gradient-btn-3 {
         font-size: 10px;
@@ -136,6 +146,7 @@
     .heading {
         margin-top: 10vh;
     }
+
     .single-team-social li a {
         font-size: 22px;
         width: 45px;
@@ -234,12 +245,13 @@
     .apps-img {
         padding-top: 20px;
     }
+
     .lead-img-big-div {
         top: 0% !important;
     }
 
-  
-  
+
+
     a.single-about {
         width: 400px;
         margin: 0 auto;
@@ -302,35 +314,40 @@
 */
 
 @media only screen and (max-width: 991px) {
-    .lead-img-big-div{
+    .lead-img-big-div {
         position: absolute;
         right: 50%;
         transform: translateX(-50%);
     }
+
     .lead-img-div-4 {
         left: 0;
     }
- 
-  
+
+
     .logo-wrapper h5 span.big {
         font-size: 3.5vw;
     }
+
     .logo-wrapper h5 span {
         font-size: 3vw;
         white-space: nowrap;
     }
-    
+
     .media-body {
         margin-top: 0;
     }
+
     a.gradient-btn-3 {
         font-size: 10px;
         padding: 20px 15px;
     }
+
     a.gradient-btn {
         font-size: 10px;
         padding: 20px 15px !important;
     }
+
     .media.direction {
         margin-bottom: 30px;
     }
@@ -370,6 +387,7 @@
         vertical-align: -.125em;
         text-align: center;
     }
+
     .w-md-75 {
         width: 75% !important;
     }
@@ -470,12 +488,15 @@
     .light {
         width: 100%;
     }
+
     .mail .single-footer p {
-    font-size: 20px;
+        font-size: 20px;
     }
+
     .h2 {
         font-size: 20px;
     }
+
     .nav-link {
         float: left;
         font-size: 30px;
@@ -487,15 +508,19 @@
     .mail {
         padding: 40px 0px;
     }
+
     a.gradient-btn-2 {
         position: relative !important;
     }
+
     .text-lg-left {
         flex-wrap: wrap !important;
     }
+
     .navbar {
         align-items: center !important;
     }
+
     .apps-img {
         margin-bottom: 20%;
     }
@@ -518,13 +543,16 @@
     .mail .gradient-btn {
         margin-top: 7%;
     }
+
     .top-header {
         margin-top: 0;
-      }
-      .mobile-header {
+    }
+
+    .mobile-header {
         top: 25px;
         padding: 10% 14%;
-      }
+    }
+
     .view {
         margin-bottom: 50px;
     }
@@ -782,18 +810,23 @@
     .main {
         height: 100%;
     }
+
     .mt-5 {
-        margin-top: 0 ;
+        margin-top: 0;
     }
+
     .home-p p {
         font-size: 18px;
     }
+
     .home-p {
         margin-top: 60%;
     }
-.lead-img-big-div {
-    top: 7%;
-}
+
+    .lead-img-big-div {
+        top: 7%;
+    }
+
     .heading h1 {
         font-size: 18px;
     }
@@ -1104,6 +1137,7 @@
         text-align: center;
         padding: 50px 0;
     }
+
     .nav-open #main-header {
         width: 80%;
     }
@@ -1297,12 +1331,13 @@
     .single-footer input {
         width: 70%;
     }
+
     .top-header {
         margin-top: 0%;
-      }
-   
+    }
+
     .lead-img-big-div {
-        top:0;
+        top: 0;
     }
 
     a.gradient-btn {
@@ -1497,34 +1532,40 @@
     .logo img {
         height: 100px;
     }
-  
+
     .top-header {
         margin-top: 0%;
-      }
-      .lead-img-big-div img {
+    }
+
+    .lead-img-big-div img {
         width: 250px;
     }
+
     .lead-img-big-div img {
         width: 325px;
     }
+
     .lead-img-big-div {
         top: 15% !important;
     }
+
     .homepage-buttons {
         padding-top: 5%;
         margin-top: 0;
     }
+
     .lead-img-div-4 img {
         width: 250px;
     }
+
     .lead-img-div-4 {
         top: 340px;
     }
-   
+
     .home-p p {
         font-size: 15px !important;
     }
-   
+
     .lead {
         font-size: 40px;
         visibility: visible;
@@ -1563,55 +1604,66 @@
 ==========================================================================*/
 @media only screen and (max-width: 900px) {
     .lead-img-big-div img {
-        width: 250px ;
+        width: 250px;
     }
+
     .lead-img-big-div {
         top: 6%;
     }
+
     .home-p {
         margin-top: 30vh;
     }
+
     .text-lg-left {
         margin: 0;
     }
+
     .lead-img-div-4 img {
         width: 180px;
-  
-     
+
+
     }
+
     .lead-img-div-4 {
-           top: 330px;
-            left: 0;
+        top: 321px;
+        left: -8vw;
     }
 }
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { 
-    
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+
     .lead-img-big-div {
         top: 10%;
     }
-    
+
     .top-header {
         margin-top: 0%;
         height: 100%;
-      }
-      .top {
+    }
+
+    .top {
         margin-top: 20%;
-      }
-      .home-p {
+    }
+
+    .home-p {
         margin-top: 33vh;
-      }
-      .nav-open #main-header {
+    }
+
+    .nav-open #main-header {
         width: 80%;
     }
+
     .mt-5 {
         margin-top: 0 !important;
     }
+
     .lead {
         padding-top: 20%;
     }
- 
+
     .home-p p {
         font-size: 18px;
     }
-    
+
 }
